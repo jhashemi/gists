@@ -1,4 +1,4 @@
-//graph
+//graph+
 CREATE (d:SiteDomain {Url:'www.blackjack.com')
 CREATE (s:SiteEntry {Url:'http://www.blackjack.com/register.html')
 CREATE UNIQUE d-[:HasPage]->s
